@@ -17,7 +17,7 @@ class OpaSuite_Admin {
 	public function add_admin_menu() {
 		// Top level menu item
 		add_menu_page(
-			__( 'Opa! Suite - Webchat', 'opasuite-header-script' ),
+			__( 'Opa! Suite - Webchat', 'opa-suite-webchat' ),
 			'Opa! Suite - Webchat',
 			'manage_options',
 			'opasuite-header-script',
@@ -28,7 +28,7 @@ class OpaSuite_Admin {
 
 		// Also register under Settings
 		add_options_page(
-			__( 'Opa! Suite - Webchat Settings', 'opasuite-header-script' ),
+			__( 'Opa! Suite - Webchat Settings', 'opa-suite-webchat' ),
 			'Opa! Suite - Webchat',
 			'manage_options',
 			'opasuite-header-script',
